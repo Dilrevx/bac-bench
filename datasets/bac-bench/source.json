@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "advisories": 30,
+    "fixed_snapshots": 30,
+    "repositories": 25,
+    "sink_ranges": 87,
+    "vulnerable_snapshots": 30
+  },
+  "files": {
+    "data/authz_instances.jsonl": {
+      "bytes": 66959,
+      "sha256": "c630f6c4b2b576ac893797a5d3ca4a3df93aa4e22f83d20226080ba748a58607"
+    },
+    "datasets/bac-bench/cases.jsonl": {
+      "bytes": 85568,
+      "sha256": "7108090a0c75cbd53a9709fd374015b196f22a510ebbd5e339ecf33cd91e050d"
+    }
+  },
+  "license_note": "No explicit upstream data license; no blanket relicensing",
+  "normalization": {
+    "schema": "bac.case.v1",
+    "version": "bac-normalize-v1"
+  },
+  "schema_version": "bac.source.v1",
+  "selected_record_sha256": {
+    "actualbudget-actual-qmjj-p7m9-wjrv": "5889181adef3c017b7045a4030f36ff454721e1d20b470bb7da19466f06c3467",
+    "aegra-aegra-ghsa-m98r-6667-4wq7": "2af45027e7d3cff3229c1c6baf566d25b5531e28ed81efdd6e400d4052f34bb8",
+    "askbot-devel-ghsa-r2jv-fwfr-4j8c": "f33b1c2c13e923a96402837b4d2e2493c646684f48e4aca7957c74c7dbba222c",
+    "flowise-ghsa-3prp-9gf7-4rxx": "b2116b2a546b50189881e101658f9509905256aa7ea81c706980815d40574528",
+    "frangoteam-FUXA-ghsa-8ghr-w65f-j3qr": "e9f9c173c9aeedeffaca85d25420bc819a18374c0effa598914fcb2b85c8903b",
+    "git-proxy-ghsa-39p2-8hq9-fwj6": "540691e3d77372675e578ece0060c3bd8603773723c4af8c036def209fccc3d4",
+    "indico-ghsa-q28v-664f-q6wj": "8203c17348ad64c09b916bcc5ab2ef8f395d8c4fb1ce46095d49290ff980fa05",
+    "khoj-ghsa-6whj-7qmg-86qj": "502911d04d4c1ca4216628e7519b734811356d1ee02d69e8ac8e78a8a66ede75",
+    "langflow-ghsa-7grx-3xcx-2xv5": "178dd247a884fe3289795bbd40e0878cf9923a689012789fb9713a3c423bc63e",
+    "langflow-ghsa-8c4j-f57c-35cf": "54326beb9254e698fb3147428c17c2a93163d10b435bacec6a7be37b9a621b76",
+    "langflow-ghsa-rf6x-r45m-xv3w": "bd8cdbedfe7dffc575d32bb705bd4faa3f014d95d10382be7442e0194fdf9fa5",
+    "mlflow-ghsa-46r5-x6jq-v8g6": "96ca64770f12bd040dfadac939dc165445927a6a1fe204e922e47a74e1911a85",
+    "n8n-ghsa-gq57-v332-7666": "d95991c0f2b8c95b0e0d947ea85c447ec1f15a4cd014d1dab7aed5fcfd8838a7",
+    "open-webui-ghsa-26g9-27vm-x3q8": "b3fc0fc744e58b1f32a1f7ccfaddf36f48c0c7aada21926fe4401b60fd12b9e1",
+    "outline-ghsa-23jj-rp48-w7q7": "8e8e94bc6bdda70534da6c28256379869c24887b48ea7f09f3a6f45768405523",
+    "parse-server-ghsa-5f92-jrq3-28rc": "93ff4d5ec6761491c61f8310c31ec96c613cd5b5377e7ffeb583e9f69176ee79",
+    "payload-puck-ghsa-65w6-pf7x-5g85": "cfca3ccd9059460f2a1cfb2e1ca6a0c25642dfd1497bdecb02bc7208fced89a9",
+    "plane-ghsa-qw87-v5w3-6vxx": "95c91c2fe82f409683652d7662afa81544d2e484310d7e3f7dcc8c9d27eb2b19",
+    "pretix-ghsa-pmjj-h5jm-vxh4": "c397a76ed0199d5632a822ff45ab51baf85d9f2bf5dde1ad76632afd568ddb13",
+    "rallly-ghsa-4j32-25f9-qgfm": "2381ae90f82032d3e7e5361ce680d09e48c4ce27cd9fbdec71023f17d66669bf",
+    "saltcorn-ghsa-9237-rg5p-rhfw": "0a8d75b99299a9c783d54f6d43f4dbebacd577d72df58d65873d3748830a5970",
+    "strapi-ghsa-495j-h493-42q2": "5ce414e48176b0111cdb257df9a3108e88769534a9f7b367acc9eb5d4bbf0880",
+    "studiocms-9v82-xrm4-mp52": "db949208d89e6338cfd1ea8243adcf66479217f7c53a2ac1f4817a755c17792f",
+    "tandoor-ghsa-v8x3-w674-55p5": "84980a223ce47457a9d115f1861975dd92543e9cbcf2b9eb3989fa3ba9138896",
+    "wagtail-ghsa-4qvv-g3vr-m348": "dfc3dde8f6946c561ceb0b8437912f6b7b4d5ae6438263a1e962b74dd1725cef",
+    "weblate-ghsa-3pmh-24wp-xpf4": "fa4ede87c9568d501d7a8893c13bdeefde7ceee24df0ff33a80f2eb930e0d63d",
+    "weblate-ghsa-mpf5-3vph-q75r": "aa78cc92d39b8218f22118d32cd7cc94543726e202b968e2a21eacf1f2b0ce43",
+    "weblate-ghsa-wppc-7cq7-cgfv": "fd2721655cdbfcb37cd48c4c4d6e87d17c1bf8f5000d3a5050703dd3fdd4d115",
+    "wger-ghsa-42cr-w2gr-m54q": "76f608f79d45deb3570321df80217453a421b87822606fc766fb9184edcda64e",
+    "wger-ghsa-g8gc-6c4h-jg86": "4f53e2a7bf4cecf384074c859a101b98012d0e0b594fb4dd3a015d9942b7f8b3"
+  },
+  "source": "absentia",
+  "upstream_commit": "80e30361ebe3d6a779886ecb42a8ecbe7e75a561",
+  "upstream_repository": "https://github.com/avduarte333/Absentia"
+}

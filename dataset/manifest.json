@@ -1,0 +1,117 @@
+{
+  "assets": {
+    "28f6b16e6299895faebf500663fe07212dea3a7f30a5f731a0d524b8ad6b8e36": {
+      "bytes": 66959,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "468613c67618bc93f784f7da110c9d45c5b76b4e",
+          "path": "data/authz_instances.jsonl",
+          "repository": "https://github.com/Dilrevx/bac-bench",
+          "sha256": "c630f6c4b2b576ac893797a5d3ca4a3df93aa4e22f83d20226080ba748a58607"
+        }
+      ],
+      "path": "assets/runtime/28f6b16e6299895faebf500663fe07212dea3a7f30a5f731a0d524b8ad6b8e36.jsonl",
+      "purpose": "oracle",
+      "sha256": "c630f6c4b2b576ac893797a5d3ca4a3df93aa4e22f83d20226080ba748a58607"
+    },
+    "50a067e236a6a1f90db1d000c1882c7cc27971c620880aa72d48ef014f5de0d3": {
+      "bytes": 1888,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "468613c67618bc93f784f7da110c9d45c5b76b4e",
+          "path": "data/README.md",
+          "repository": "https://github.com/Dilrevx/bac-bench",
+          "sha256": "a3e8bc9ad22793182999c9c52acc415ec7f804d5d733de1b9a12ec151116bdd0"
+        }
+      ],
+      "path": "assets/runtime/50a067e236a6a1f90db1d000c1882c7cc27971c620880aa72d48ef014f5de0d3.md",
+      "purpose": "oracle",
+      "sha256": "a3e8bc9ad22793182999c9c52acc415ec7f804d5d733de1b9a12ec151116bdd0"
+    },
+    "ac9f413b547b537cc985d18e51ccce2d528ccd1eedd3c6a3d084d9298c63182d": {
+      "bytes": 7664,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "468613c67618bc93f784f7da110c9d45c5b76b4e",
+          "path": "data/instances.csv",
+          "repository": "https://github.com/Dilrevx/bac-bench",
+          "sha256": "5697a2348a005ba4884c77dfb02c9bcd2a36831b9578ba196fb2126e3375b871"
+        }
+      ],
+      "path": "assets/runtime/ac9f413b547b537cc985d18e51ccce2d528ccd1eedd3c6a3d084d9298c63182d.csv",
+      "purpose": "oracle",
+      "sha256": "5697a2348a005ba4884c77dfb02c9bcd2a36831b9578ba196fb2126e3375b871"
+    },
+    "ce1a3be3c1ba7b367992468b5a62fb67a446fce61596248892fdb9d06a032393": {
+      "bytes": 1201,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "468613c67618bc93f784f7da110c9d45c5b76b4e",
+          "path": "DATA_LICENSES.md",
+          "repository": "https://github.com/Dilrevx/bac-bench",
+          "sha256": "67e723e71ac1ba924860422bc3a722721507bf07d10f9ba9bfe713bfe401d0c5"
+        }
+      ],
+      "path": "assets/runtime/ce1a3be3c1ba7b367992468b5a62fb67a446fce61596248892fdb9d06a032393.md",
+      "purpose": "license",
+      "sha256": "67e723e71ac1ba924860422bc3a722721507bf07d10f9ba9bfe713bfe401d0c5"
+    }
+  },
+  "benchmark_id": "bac-bench",
+  "cases": {
+    "path": "cases.jsonl",
+    "records": 30,
+    "sha256": "9ed33dbad6c4fdae87b76d5deaf526c52ea43a47596615c432c51cd46d2a68a2"
+  },
+  "counts": {
+    "case_groups": 30,
+    "labels": 30,
+    "origins": {
+      "real": 30
+    },
+    "records": 30,
+    "splits": {
+      "unassigned": 30
+    },
+    "versions": 60
+  },
+  "importer_sha256": "a778c2453b74c06a8b4a833735a47fcbbb6c49828fc5969b1a3937dbdd72c099",
+  "license": {
+    "assets": [
+      "ce1a3be3c1ba7b367992468b5a62fb67a446fce61596248892fdb9d06a032393"
+    ],
+    "associations": [
+      {
+        "asset": "ce1a3be3c1ba7b367992468b5a62fb67a446fce61596248892fdb9d06a032393",
+        "original_path": "DATA_LICENSES.md",
+        "source_scope": "."
+      }
+    ],
+    "policy": "Original licenses and third-party rights are retained; no blanket relicensing.",
+    "status": "original records and attribution retained in our upstream fork; no explicit upstream data license and no blanket relicensing"
+  },
+  "origin": {
+    "adapter": "bac-bench-normalized-v1",
+    "commit": "468613c67618bc93f784f7da110c9d45c5b76b4e",
+    "files": {
+      "DATA_LICENSES.md": "67e723e71ac1ba924860422bc3a722721507bf07d10f9ba9bfe713bfe401d0c5",
+      "data/README.md": "a3e8bc9ad22793182999c9c52acc415ec7f804d5d733de1b9a12ec151116bdd0",
+      "data/authz_instances.jsonl": "c630f6c4b2b576ac893797a5d3ca4a3df93aa4e22f83d20226080ba748a58607",
+      "data/instances.csv": "5697a2348a005ba4884c77dfb02c9bcd2a36831b9578ba196fb2126e3375b871",
+      "datasets/bac-bench/cases.jsonl": "7108090a0c75cbd53a9709fd374015b196f22a510ebbd5e339ecf33cd91e050d",
+      "datasets/bac-bench/source.json": "56edce80f2db76d9c42385508756bee7399ad6724b7989035ded376bbce3b555",
+      "datasets/bac-bench/summary.json": "cde5ebe88b22cc6fe47b68ecbca335c3d096c0e79399444d7b16dcb51332c019"
+    },
+    "repository": "https://github.com/Dilrevx/bac-bench"
+  },
+  "record_unit": "authorization_advisory",
+  "schema": "bench-dataset-v1"
+}

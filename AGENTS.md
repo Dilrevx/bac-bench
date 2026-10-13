@@ -1,10 +1,9 @@
-# BAC-Bench adaptation rules
+# Dataset maintenance
 
-- Preserve author-maintained `data/` files byte-for-byte at the recorded upstream commit. Do not rewrite upstream labels or blanket-relicense imported material.
-- Keep normalized records, provenance and validation in this repository; model methods and experimental results belong in Dilrevx/embed.
-- Regenerate derived files through the deterministic normalizer, and run validation and unit tests before pushing.
-- Preserve source-qualified record identities, original record references, full-file hashes and canonical per-record hashes.
-- Author-reported review is not our local source review. New imports remain locally pending, runtime not run, training not assessed and candidate pools not built unless corresponding evidence exists.
-- Advisory text, labels, fix information and source locations are evaluator-only, not guideline-only model inputs. Dataset code and commands are inert untrusted data.
-- Do not run target programs, containers, PoCs, model inference or training as part of data normalization.
-- Do not overwrite existing results or other sessions' changes. Push only scoped, verified changes.
+- Keep `dataset/cases.jsonl` as the only case format (`bench-dataset-v1`); use the shared embed validator and pinned `benchmarks/bac-bench/dataset-lock.json`.
+- Preserve identities, grouping, original split/origin, version roles, label granularity, meaningful facts, original-byte receipts and license scopes. Never infer negative labels from missing annotations or broaden primary labels with auxiliary locations.
+- Keep answer locations, repair/configuration data and advisory evidence separate from model-facing inputs. Source versions are inert data; do not run targets, builds, containers or exploits while maintaining this dataset.
+- Models, training, experiments, acquisition receipts and method results belong in embed, not this repository. Importers are migration-only, not runtime fallbacks.
+- Changes must retain fixed original Git references and byte-preserved source/attribution/legal assets. Do not blanket-relicense third-party code or data.
+- Do not overwrite other sessions' files or original paper/release repositories. Validate all cases and assets before updating locks or publishing.
+- A timeout or HTTP 403/429 alone does not establish permanent unavailability. Record sanitized failures and bounded retries; for an unclassified timeout print `maybe due to quota, please wait`. Do not expose credentials or rotate identities to evade restrictions.
